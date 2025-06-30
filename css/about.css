@@ -1,8 +1,120 @@
-*{
+body{
+    background: linear-gradient(seagreen );
+}
+
+* {
     padding: 0;
     margin: auto;
 }
 
-img {
-    width: 170px;
+.img {
+    width: 300px;
+    padding: 200px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.h1 {
+    padding: 500px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    color: whitesmoke;
+    margin-left: 0;
+    margin-bottom: 50px;
+}
+
+
+.index-links {
+    text-decoration: none;
+    margin: 20px;
+    font-size: xx-large;
+    padding: 20px;
+    color: whitesmoke;
+    background-color: seagreen;
+    border-radius: 50px;
+    
+}
+
+.index-links:hover{
+    text-decoration: underline;
+    color: blue;
+    background-color: black;
+}
+
+.about-links:hover{
+    text-decoration: underline;
+    color: blue;
+    background-color: black;
+}
+
+.contact-links:hover{
+    text-decoration: underline;
+    color: blue;
+    background-color: black;
+}
+.about-links {
+    text-decoration: none;
+    margin: 20px;
+    font-size: xx-large;
+    padding: 20px;
+    color: whitesmoke;
+    background-color: seagreen;
+    border-radius: 50px;
+    
+}
+.contact-links {
+    text-decoration: none;
+    margin: 20px;
+    font-size: xx-large;
+    padding: 20px;
+    color: whitesmoke;
+    background-color: seagreen;
+    border-radius: 50px;
+    
+}
+
+.h1-blogs {
+    text-decoration: none;
+    margin: 20px;
+    color: blue;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.h2{
+    text-decoration: none;
+    margin: 20px;
+    color: blue;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 200px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+.discription{
+    color: green;
+    text-indent: 5%;
+}
+
+.footer{
+    padding: 200px;
+    padding-bottom: 0;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 100px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 50px;
+}
+
+.footer .footer-a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer .footer-a:hover {
+    text-decoration: underline;
 }
