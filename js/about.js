@@ -1,14 +1,13 @@
 alert(`Welcome user to the About page`);
 let indexLinks = document.getElementById('index-links');
-let aboutLinks = document.getElementById('about-links');
-let contactLinks = document.getElementsByClassName('contact-links');
+let contactLinks = document.getElementById('contact-links')
 
 contactLinks.addEventListener('click', function () {
-    let askContactt = prompt(`this will take you to the Contact page. Want to continue? Enter y to continue or n `).toUpperCase()
-    if (askContactt == "Y"){
+    let askContactt = prompt(`this will take you to the Contact page. Want to continue? Enter y to continue or n `)
+    if (askContactt == "y"){
         window.open('Contact.html')
     }
-    else if (askContactt == "N"){
+    else if (askContactt == "n"){
         window.open("about.html")
     }
     else {
@@ -17,11 +16,11 @@ contactLinks.addEventListener('click', function () {
 });
 
 indexLinks.addEventListener('click', function () {
-    let ask = prompt(`this will take you to the Home page. Want to continue? Enter y to continue or n `).toUpperCase()
-    if (ask == "Y"){
+    let ask = prompt(`this will take you to the Home page. Want to continue? Enter y to continue or n `)
+    if (ask == "y"){
         window.open('index.html')
     }
-    else if (ask == "N"){
+    else if (ask == "n"){
         window.open("about.html")
     }
     else {
