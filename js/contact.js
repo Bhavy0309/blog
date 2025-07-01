@@ -4,6 +4,7 @@ let aboutLinks = document.getElementById('about-links');
 
 indexLinks.addEventListener('click', function () {
     let askContactt = prompt(`this will take you to the Home page. Want to continue? Enter y to continue or n `).toUpperCase()
+    console.log(askContactt == "N")
     if (askContactt == "Y"){
         window.open('index.html')
     }

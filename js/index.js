@@ -1,7 +1,7 @@
 alert(`Welcome user to the sunset-blogs`);
 let indexLinks = document.getElementById('index-links');
 let aboutLinks = document.getElementById('about-links');
-let contactLinks = document.getElementsByClassName('contact-links');
+let contactLinks = document.getElementsById('contact-links');
 
 contactLinks.addEventListener('click', function () {
     let askContactt = prompt(`this will take you to the Contact page. Want to continue? Enter y to continue or n `).toUpperCase()
